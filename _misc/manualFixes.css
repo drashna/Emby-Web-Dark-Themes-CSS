@@ -1,0 +1,132 @@
+/* Manual CSS Fixes */
+
+/* Color HEX codes */
+/* RED	       : #E81123 & (232, 17, 35)
+/* DARK COLOR  : #94131E
+
+/* ORANGE      : #FF8000 & (255, 128, 0)
+/* DARK COLOR  : #BF6000
+
+/* ORANGE PLEX : #CC7B19 & (204, 123, 25)
+/* DARK COLOR  : #B35A00
+
+/* YELLOW      : #BDBD00 & (189, 189, 0)
+/* DARK COLOR  : #757500
+
+/* GREEN       : #52B54B & (82, 181, 75)
+/* DARK COLOR  : #3E8437
+
+/* BLUE	       : #4285F4 & (66, 133, 244)
+/* DARK COLOR  : #0C57D6
+
+/* PURPLE      : #673AB7 & (103, 58, 183)
+/* DARK COLOR  : #3F2471
+
+/* GRAY	       : #7F7F7F & (127, 127, 127)
+/* DARK COLOR  : #535353
+
+/* PINK	       : #F707DF & (247, 7, 223)
+/* PINK (DARK) : #C604B3
+
+/* Gray 1      : #9b9b9b              (Link hover & Disabled)
+/* Gray 2      : #4D4D4D              (Sidelink Panel hover backgrounds)
+/* Gray 3      : #404040              (Button backgrounds)
+/* Dark Gray 1 : #101010 & (16,16,16) (Dialog Header/Top bar backgrounds)
+/* Dark Gray 2 : #19191A              (Dialog & General backgrounds)
+/* Dark Gray 3 : #222222              (Side Panel background)
+/* Dark Gray 4 : #2B2B2B              (Panel backgrounds)
+/* Dark Gray 5 : #343434              (Dark Divider lines)
+/* Dark Gray 6 : #444444              (Light Divider lines)
+/* Dark Gray 7 : #737373              (Border-bottom lines)
+/* Black 1     : #080808              (Light Black)
+/* Black 2     : #010101              (Dark Black & Pop-up backgrounds)
+/* White 1     : #CCCCCC              (Secondary text)
+/* White 2     : #AAAAAA              (Field descriptions)
+/* White 3     : #FFFFFF              (Real white)
+/* White 4     : #BBBBBB              (Side Panel icons)
+
+*/
+
+  
+
+/*Move Overlay Button to top right*/
+.cardOverlayButtonContainer {top: -11px !important; right: -5px !important;}
+
+/*Center Card Footer*/
+.cardContent .cardFooter {width: 100%; text-align: center;}
+
+
+/* Rounded Imags 11Login Page */
+div#divUsers.itemsContainer.vertical-wrap.centered .visualCardBox .cardScalable {
+    background-color: #4285F4 !important; /* replace the accent color #E81123 */
+    border-radius: 125px !important; }
+
+div.cardImageContainer.coveredImage.noScale {
+    border-radius: 125px !important;
+}
+
+div#divUsers.itemsContainer.vertical-wrap.centered .visualCardBox .cardFooter, div#divUsers.itemsContainer.vertical-wrap.centered div.cardBox.visualCardBox {
+    background: transparent !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-box-shadow: 0 2px 4px transparent !important;
+    -ms-box-shadow: 0 2px 4px transparent !important;
+    -webkit-box-shadow: 0 2px 4px transparent !important;
+    box-shadow: 0 2px 4px transparent !important; 
+}
+
+#loginPage h1 {display: none }
+
+
+/*Background Image brightness*/
+.background-theme-b .backgroundContainer.withBackdrop {
+	background-color: rgba(0,0,0,.6)!important;
+	background: rgba(0,0,0,.6)!important;
+	}	
+
+
+/* Glow Light around image/poster in Media Detail Page */
+/* 
+.itemDetailGalleryLink img:hover {
+    -moz-box-shadow: 0 0 20px 3px transparent !Important;
+    -webkit-box-shadow: 0 0 20px 3px transparent !Important;
+    box-shadow: 0 0 20px 3px transparent !Important; }
+*/ 	
+
+
+/* Hide Play button on general posters */
+/* .cardOverlayButton {display:none !important;} */
+
+
+
+/* Move the subtitles up */
+::cue {font-size: 125%;}
+video::-webkit-media-text-track-container {bottom:50px;}
+video::-moz-media-text-track-container {bottom:50px;}
+
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(https://fonts.gstatic.com/s/ubuntu/v11/4iCs6KVjbNBYlgoKfw72.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://fonts.gstatic.com/s/ubuntumono/v7/ViZhet7Ak-LRXZMXzuAfkY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+}
+/* i really want this to be global */
+* {
+    font-family: 'Ubuntu';
+}
+body * {
+    font-family: 'Ubuntu';
+}
+
+::cue {
+  font-family: 'Ubuntu'!important;  
+  font: 'Ubuntu'!important;  
+
+}

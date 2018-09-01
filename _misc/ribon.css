@@ -1,0 +1,8 @@
+/*Make Played Indicator into Ribbon LHS*/
+.playedIndicator i, .syncIndicator i {font-size: 150%; transform: rotate(45deg);}
+.card .playedIndicator, .card .countIndicator {width: 125px; height: 25px; border-radius: 0%; transform: rotate(-45deg); border-style: none; border-width: 0px; border-color: rgba(255, 255, 255, 0.5); display: flex; align-items: center; justify-content: center;}
+.card .indicators {right: initial !important; top: 22px !important; left: -27px !important;}
+.cardIndicators {right: initial !important; top: 22px !important; left: -27px !important;}
+
+
+

@@ -1,0 +1,20 @@
+
+/* Rounded Images for Login Page and Twonky (accidently) */
+div#divUsers.itemsContainer.vertical-wrap.centered .visualCardBox .cardScalable {
+    background-color: #4285F4 !important; /* replace the accent color #E81123 */
+    border-radius: 125px !important; }
+
+div.cardImageContainer.coveredImage.noScale {
+    border-radius: 125px !important;
+}
+
+div#divUsers.itemsContainer.vertical-wrap.centered .visualCardBox .cardFooter, div#divUsers.itemsContainer.vertical-wrap.centered div.cardBox.visualCardBox {
+    background: transparent !important;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-box-shadow: 0 2px 4px transparent !important;
+    -ms-box-shadow: 0 2px 4px transparent !important;
+    -webkit-box-shadow: 0 2px 4px transparent !important;
+    box-shadow: 0 2px 4px transparent !important; }
+
+	
