@@ -67,7 +67,7 @@ _________________________________________________________________________
 /* ------------------------ 1. ACCENT COLORS ------------------------- */
 /* ----- 1.1 Buttons ----- */
 /* 1.1.1 Checkboxes */
-.emby-checkbox:checked + span + span + .checkboxOutline > .checkboxOutlineTick {
+.emby-checkbox:checked + span + span + .checkboxOutline {
   background-color: #7F7F7F !important; }
 
 .emby-checkbox:checked + span + span + .checkboxOutline,
