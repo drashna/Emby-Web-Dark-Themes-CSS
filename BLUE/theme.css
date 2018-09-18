@@ -469,3 +469,19 @@ a.lnkPremiere:hover {
 .searchSuggestionsList a:active, .noItemsMessage a:active,
 a.lnkPremiere:active {
   color: #0C57D6 !important; }
+
+
+/*Library Show Advanced setting switch*/
+.mdl-switch__input:checked+.mdl-switch__label+.mdl-switch__trackContainer>.mdl-switch__track {
+    background: rgba(12, 87, 214, .5) !important;
+}
+
+.mdl-switch__input:checked:focus+.mdl-switch__label+.mdl-switch__trackContainer .mdl-switch__focus-helper {
+    -webkit-box-shadow: 0 0 0 1.39em rgba(12, 87, 214,.26) !important;
+    box-shadow: 0 0 0 1.39em rgba(12, 87, 214,.26) !important;
+    background-color: rgba(12, 87, 214,.26) !important;
+}
+
+.mdl-switch__input:checked+.mdl-switch__label+.mdl-switch__trackContainer>.mdl-switch__thumb {
+    background: #0C57D6 !important;
+}
